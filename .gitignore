@@ -1,0 +1,40 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# PowerShell
+*.psd1
+*.psm1
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Hyper-V
+*.vhd
+*.vhdx
+*.avhdx
+*.vmrs
+*.vmcx
+
+# VMware
+*.vmdk
+*.vmem
+*.nvram
+*.lck
+
+# SQL Server
+*.mdf
+*.ldf
+
+# MECM
+*.cab
+
+# Windows Recycle Bin
+$RECYCLE.BIN/
