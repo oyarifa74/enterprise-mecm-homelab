@@ -29,6 +29,9 @@ The primary objectives of this home lab are to:
 ---
 
 ## Lab Architecture
+## Architecture Diagram
+
+![Enterprise MECM Home Lab Architecture](docs/diagrams/enterprise-mecm-homelab-architecture.png)
 
 The environment is hosted on a Windows computer running Microsoft Hyper-V.
 
