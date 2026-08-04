@@ -1,57 +1,78 @@
-# Enterprise Windows and MECM Home Lab
+# Enterprise MECM Homelab
 
-## Project Overview
+An enterprise Windows infrastructure built entirely in a home lab.
 
-This repository documents the design, implementation, administration, and troubleshooting of an enterprise-style Windows infrastructure home lab built with Microsoft Hyper-V.
+This project demonstrates the deployment and administration of Microsoft enterprise technologies including:
 
-The environment was created to develop practical System Administrator skills in Windows Server, Active Directory, networking, file services, SQL Server, Microsoft Configuration Manager, PowerShell, and infrastructure automation.
-
-The project is maintained as a living technical portfolio. New documentation, scripts, diagrams, screenshots, and automation will be added as the lab continues to expand.
-
----
-
-## Project Objectives
-
-The primary objectives of this home lab are to:
-
-- Build and manage a Windows domain environment
-- Configure centralized identity and access management
-- Administer DNS and DHCP services
-- Manage Windows workstations through Group Policy
-- Configure enterprise file shares and permissions
-- Deploy Microsoft Configuration Manager
-- Install and manage Configuration Manager clients
-- Troubleshoot infrastructure, networking, authentication, and deployment issues
-- Automate administrative tasks with PowerShell
-- Introduce Infrastructure as Code and configuration management
-- Document technical work using Git and GitHub
+* Active Directory Domain Services
+* DNS
+* DHCP
+* Group Policy
+* Hyper V
+* RRAS NAT
+* SQL Server
+* Microsoft Configuration Manager (MECM/SCCM)
+* Windows 11 Client Management
+* PowerShell Automation
 
 ---
 
-## Lab Architecture
-## Architecture Diagram
+## Architecture
 
-![Enterprise MECM Home Lab Architecture]
-(docs/diagrams/enterprise-mecm-homelab-architecture.png)
+![Architecture](images/architecture.png)
 
-The environment is hosted on a Windows computer running Microsoft Hyper-V.
+---
 
-```text
-Home Router
-192.168.4.1
-     |
-     |
-DC01 External Interface
-192.168.4.10
-     |
-     | Routing and NAT
-     |
-DC01 Internal Interface
-10.10.10.1
-     |
-     | 10.10.10.0/24 Lab Network
-     |
-     +---------------------------------------------------+
-     |                    |                 |             |
-   DC01                 MECM01            FS01        CLIENT01
-10.10.10.1          10.10.10.106        Server       10.10.10.102
+## Current Environment
+
+| Server | Operating System | Purpose |
+|---------|-----------------|----------|
+| DC01 | Windows Server 2025 | AD DS, DNS, DHCP, RRAS |
+| MECM01 | Windows Server 2025 | SQL Server + MECM |
+| FS01 | Windows Server 2022 | File Server |
+| CLIENT01 | Windows 11 | Managed Client |
+
+---
+
+## Technologies
+
+* Active Directory
+* Group Policy
+* DNS
+* DHCP
+* Hyper V
+* SQL Server
+* MECM
+* Windows Server
+* Windows 11
+* PowerShell
+* Git
+* GitHub
+
+---
+
+## Project Status
+
+✅ Active Directory
+
+✅ DNS
+
+✅ DHCP
+
+✅ RRAS
+
+✅ SQL Server
+
+✅ MECM
+
+✅ Client Deployment
+
+⬜ WSUS
+
+⬜ PKI
+
+⬜ Infrastructure as Code
+
+⬜ Intune
+
+⬜ Monitoring
