@@ -2,16 +2,16 @@
 
 ## Version 1.0.0
 
-### Added
+Completed
 
-- Initial repository structure
-- Professional README
-- Enterprise architecture diagram
-- Active Directory documentation
-- DNS documentation
+* Active Directory
+* DNS
+* DHCP
+* Group Policy
+* Hyper-V
+* RRAS
+* SQL Server Engine
 
-## Upcoming
+Planned
 
-- DHCP documentation
-- Group Policy documentation
-- RRAS documentation
+* SQL Server Management Studio

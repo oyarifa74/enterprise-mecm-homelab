@@ -21,6 +21,16 @@ Please ensure all documentation follows the existing project structure and Markd
 - DHCP Documentation
 - Group Policy Documentation
 
+## Upcoming
+
+☐ Install SQL Server Management Studio
+
+☐ Configure MECM Database Administration
+
+☐ Document SQL Maintenance
+
+☐ Backup SQL Database
+
 ## Planned
 
 - WSUS
